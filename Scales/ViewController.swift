@@ -8,6 +8,7 @@
 
 import UIKit
 
+// TODO:  Rename as ScalesController
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -15,6 +16,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    var scalesModel = ScalesModel()
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -23,7 +26,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var myLabel: UILabel!
 
     @IBAction func myButtonClick() {
-        myLabel.text! = "Hello Gary!"
+        myLabel.text! = scalesModel.getRandom()
     }
 }
 

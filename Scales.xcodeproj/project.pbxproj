@@ -13,6 +13,7 @@
 		4EAF5C501B4BD654008DB4E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EAF5C4F1B4BD654008DB4E7 /* Images.xcassets */; };
 		4EAF5C531B4BD654008DB4E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EAF5C511B4BD654008DB4E7 /* LaunchScreen.xib */; };
 		4EAF5C5F1B4BD654008DB4E7 /* ScalesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF5C5E1B4BD654008DB4E7 /* ScalesTests.swift */; };
+		C418DDAD1B4BDF2A006C9123 /* ScalesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C418DDAC1B4BDF2A006C9123 /* ScalesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4EAF5C581B4BD654008DB4E7 /* ScalesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScalesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EAF5C5D1B4BD654008DB4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EAF5C5E1B4BD654008DB4E7 /* ScalesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalesTests.swift; sourceTree = "<group>"; };
+		C418DDAC1B4BDF2A006C9123 /* ScalesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScalesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				4EAF5C4A1B4BD654008DB4E7 /* ViewController.swift */,
 				4EAF5C4C1B4BD654008DB4E7 /* Main.storyboard */,
+				C418DDAC1B4BDF2A006C9123 /* ScalesModel.swift */,
 				4EAF5C461B4BD654008DB4E7 /* Supporting Files */,
 			);
 			path = Scales;
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EAF5C4B1B4BD654008DB4E7 /* ViewController.swift in Sources */,
+				C418DDAD1B4BDF2A006C9123 /* ScalesModel.swift in Sources */,
 				4EAF5C491B4BD654008DB4E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +415,7 @@
 				4EAF5C641B4BD654008DB4E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EAF5C651B4BD654008DB4E7 /* Build configuration list for PBXNativeTarget "ScalesTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				4EAF5C671B4BD654008DB4E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
