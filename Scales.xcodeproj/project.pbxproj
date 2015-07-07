@@ -77,11 +77,8 @@
 		4EAF5C451B4BD654008DB4E7 /* Scales */ = {
 			isa = PBXGroup;
 			children = (
-				4EAF5C481B4BD654008DB4E7 /* AppDelegate.swift */,
 				4EAF5C4A1B4BD654008DB4E7 /* ViewController.swift */,
 				4EAF5C4C1B4BD654008DB4E7 /* Main.storyboard */,
-				4EAF5C4F1B4BD654008DB4E7 /* Images.xcassets */,
-				4EAF5C511B4BD654008DB4E7 /* LaunchScreen.xib */,
 				4EAF5C461B4BD654008DB4E7 /* Supporting Files */,
 			);
 			path = Scales;
@@ -90,6 +87,9 @@
 		4EAF5C461B4BD654008DB4E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4EAF5C4F1B4BD654008DB4E7 /* Images.xcassets */,
+				4EAF5C511B4BD654008DB4E7 /* LaunchScreen.xib */,
+				4EAF5C481B4BD654008DB4E7 /* AppDelegate.swift */,
 				4EAF5C471B4BD654008DB4E7 /* Info.plist */,
 			);
 			name = "Supporting Files";
