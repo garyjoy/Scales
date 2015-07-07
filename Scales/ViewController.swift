@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var myLabel: UILabel!
 
     @IBAction func myButtonClick() {
-        myLabel.text! = "Hello!"
+        myLabel.text! = "Hello Gary!"
     }
 }
 
