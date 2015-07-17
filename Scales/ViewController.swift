@@ -26,7 +26,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var myLabel: UILabel!
 
     @IBAction func myButtonClick() {
-        myLabel.text! = scalesModel.getRandom()
+        let (scaleText, articulationText) = scalesModel.getRandom()
+        myLabel.text! = scaleText + "\n\n" + articulationText
+        
     }
 }
 
